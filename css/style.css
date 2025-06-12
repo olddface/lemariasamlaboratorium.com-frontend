@@ -67,6 +67,7 @@ p {
 }
 
 a {
+    text-decoration: none;
     color: #000;
 }
 
@@ -1307,7 +1308,6 @@ footer p {
     .navbar.navbar-light {
         text-align: center;
     }
-
     .navbar.navbar-light li.nav-item {
         border-bottom: 1px solid #eee;
         margin-bottom: 4px;
@@ -1334,6 +1334,11 @@ footer p {
     .row.reply-area {
         margin-left: 40px;
         margin-top: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        justify-content: right;
     }
 }
 
@@ -1522,3 +1527,7 @@ footer p {
   .carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
 
   .carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
+  .carousel-indicators {
+    position: relative;
+  }
+ .carousel-indicators [data-bs-target] { width: 50%; height: fit-content; }
