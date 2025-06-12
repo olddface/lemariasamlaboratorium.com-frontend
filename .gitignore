@@ -1,0 +1,78 @@
+# Laravel & PHP related files
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+.npm
+.phpunit.result.cache
+.phpunit.cache
+# IDE and Editor specific files
+.idea
+*.swp
+*.swo
+*.DS_Store
+*.vscode
+.vscode/
+*.jpg
+*.png
+*.gif
+# Laravel compiled files
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Ignore the public/hot file that is used for Hot Module Replacement by Webpack
+/public/hot
+
+# Ignore the Mix manifest
+/public/mix-manifest.json
+/public/css/app.css
+/public/js/app.js
+
+# Ignore the public directory's app-specific assets
+/public/css/*
+# Ignore storage directory except storage/app/public
+!/storage/app/public
+
+# Ignore cache and log files
+bootstrap/cache/*.php
+storage/logs/*.log
+storage/framework/sessions/*
+storage/framework/views/*.php
+/resources/assets/
+/resources/assets/Images/
+/resources/css/
+/resources/fonts/
+/resources/js/
+/resources/webfonts/
+
+
+# Ignore dotenv file
+.env
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore npm and yarn lock files
+package-lock.json
+yarn.lock
+
+# Ignore custom assets
+/public/assets/Images
+/public/*.jpg
+/images/*.jpg
+/public/*.jpg
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore Linux specific files
+*.swp
+
+# Ignore Windows specific files
+Thumbs.db
