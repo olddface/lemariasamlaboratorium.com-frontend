@@ -1531,3 +1531,16 @@ footer p {
     position: relative;
   }
  .carousel-indicators [data-bs-target] { width: 50%; height: fit-content; }
+ .carousel-inner.custom {
+    height: 80%;
+ }
+ .carousel-item.custom {
+    height:  100%;
+ }
+ .carousel-item.custom img {
+    object-fit: cover;
+ }
+ .icon.custom svg {
+    width: 50%;
+    height: 70%;
+ }
